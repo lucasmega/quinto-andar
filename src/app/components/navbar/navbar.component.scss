@@ -1,0 +1,61 @@
+/* Gerais */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header, .navbar {
+    background-color: #FFF;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 75px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #353D41;
+    span {
+        font-size: 30px;
+    }
+}
+
+.navbar-brand span:nth-child(1) {
+    padding: 0;
+    color: #353D41;
+    margin: 0px 0px 0px 5px;
+    font-weight: 900;
+    text-transform: uppercase;
+} 
+
+.navbar-brand span:nth-child(2) {
+    padding: 0;
+    color: #353D41;
+    font-weight: 300;
+    text-transform: uppercase;
+} 
+
+
+.navbar-brand:hover {
+    color: #353D41;
+}
+
+#navbar-links a {
+    color: #353D41;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+.navbar-nav {
+    span:hover {
+        background-color: #f8f9f5;
+    }
+}
+
