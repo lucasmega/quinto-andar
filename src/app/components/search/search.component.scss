@@ -3,41 +3,58 @@
         margin: 0;
         padding: 30px;
     }
+    .mat-form-field-appearance-fill .mat-form-field-flex {
+        background-color: transparent;
+    }
+    .mat-form-field {
+        width: 100%;
+    }
+    .mat-raised-button {
+        background-color: #1b43a6;
+        color: #fff;
+        width: 100%;
+        border-radius: 0%;
+        min-height: 5vh;
+    }
+    .mat-tab {
+        .col-md-6 {
+            padding: 0px 11px 0px 1px;
+            background-color: #1b43a6;
+        }
+    }
 }
 
-img {
-    height: 100%;
+.container {
+    .img-fluid {
+        padding: 0;
+        background-image: url(../../../assets/img/person-entering.webp);
+        background-size: cover;
+        margin: 0 auto;
+        position: relative;
+        min-height: 300px;
+    }
+    .col-md-6:nth-child(2) {
+        padding: 0;
+    }
+    
+    .col-md-6:nth-child(3) {
+        background-color: #f8f9f5;
+    }
+    .col-12 {
+        .main-title {
+            color: #444;
+            margin: 0 0 65px 0;
+            font-size: 40px;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            font-weight: 300;
+        }
+    }
 }
 
-.col-md-6:nth-child(2) {
-    padding: 0;
-}
 
-.col-md-6:nth-child(3) {
-    background-color: #f8f9f5;
-}
 
-.main-title {
-    color: #444;
-    margin: 0 0 65px 0;
-    font-size: 40px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-}
 
-::ng-deep.mat-form-field-appearance-fill .mat-form-field-flex {
-    background-color: transparent;
-}
 
-.mat-form-field {
-    width: 100%;
-}
-
-.mat-raised-button {
-    background-color: #1b43a6;
-    color: #fff;
-    width: 100%;
-    border-radius: 0%;
-    min-height: 5vh;
-}
 
